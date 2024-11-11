@@ -43,9 +43,8 @@ endif()
 add_subdirectory(bonxai_core)
 add_subdirectory(examples)
 
-if(Eigen_FOUND AND PCL_FOUND )
-    add_subdirectory(bonxai_map)
-endif()
+add_subdirectory(bonxai_map)
+
 
 # Default behavior
 find_package(ament_cmake QUIET)
